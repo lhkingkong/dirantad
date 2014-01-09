@@ -138,7 +138,7 @@ function loginAJAX() {
         <titulos>Connexíon al directorio ANTAD 2014</titulos>
       </div><?php */?>
       
-      <div id="divForm">
+      <div class="one-second column" id="divForm">
       <form action="login.php" method="post">
         <div class="clear"></div>
         <div>Usuario o Correo Electr&oacute;nico *
@@ -154,9 +154,24 @@ function loginAJAX() {
         <div class="clear"></div>
         <div style="margin:5px;"><a href="olvidarPassword.php" class="link">¿Olvidaste la Contraseña?</a></div>
       </form>
-      
-      
       </div>
+      <div class="one-second column" style="margin-top:10px; float:left;">
+                <p><span class="text_higlight">DIRECTORIO ANTAD 2014</span> contiene:</p>
+          <p>Número de tiendas y m2 de piso de Venta a diciembre 2013 a nivel Nacional, por Estado y Zona Geográfica.<ul style="margin-left:15px;">
+                        <li>Reportes para exportación en Excel.</li>
+                        <li>Concepto de formatos de tiendas.</li>
+            <li>Líneas de Mercancía ANTAD.</li>
+            <li>Compatibilidad con dispositivos móviles.</li>
+          </ul><br />
+        Costo: $1,000 con impuestos incluidos.<br>
+<br />
+        Mayores informes:<br />
+        <ul style="margin-left:20px;">
+        <li>Cecilia León <span class="email"><a href="mailto:cleon@antad.org.mx">cleon@antad.org.mx</a></span> y/o</li>
+        <li>Melissa Albores E. <span class="email"><a href="mailto:malbores@antad.net">malbores@antad.net</a></span></li>
+        </ul>
+                </p>
+        </div>
     </div>
     <div class="clearfix"></div>
   </div>
