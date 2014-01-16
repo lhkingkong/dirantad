@@ -820,3 +820,7 @@ a:hover .libro{
 .grayBox{
 	border:3px #EEE solid;
 }
+.mensajeIndex{
+	margin-top:10px; float:left;
+	margin-left:10%;
+}

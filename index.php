@@ -155,7 +155,7 @@ function loginAJAX() {
         <div style="margin:5px;"><a href="olvidarPassword.php" class="link">¿Olvidaste la Contraseña?</a></div>
       </form>
       </div>
-      <div class="one-second column" style="margin-top:10px; float:left;">
+      <div class="one-second column mensajeIndex">
                 <p><span class="text_higlight">DIRECTORIO ANTAD 2014</span> contiene:</p>
           <p>Número de tiendas y m2 de piso de Venta a diciembre 2013 a nivel Nacional, por Estado y Zona Geográfica.<ul style="margin-left:15px;">
                         <li>Reportes para exportación en Excel.</li>
