@@ -818,9 +818,10 @@ a:hover .libro{
 	list-style:square;
 }
 .grayBox{
-	border:3px #EEE solid;
+	border:3px #dd3a3d solid;
 }
 .mensajeIndex{
-	margin-top:10px; float:left;
+	margin-top:10px; 
+	float:left;
 	margin-left:10%;
 }

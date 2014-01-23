@@ -14,7 +14,7 @@ if($currentA!='login'){
     <?php }//fin  if($currentA!='login') ?>
 <header class="clearfix">
   <div class="fullheader" style="width:100%;">
-    <div class="header"><a href="index.php"><div class="logoANTAD"></div><img alt="ANTAD" class="scale-with-grid" src="images/headerLogin.png" /></a> </div>
+    <div class="header"><a href="index.php"><div class="logoANTAD"></div><img class="dirantadLogo" alt="ANTAD" class="scale-with-grid" src="images/headerLogin-2.png" /></a> </div>
   </div>  
 </header>
 <?php 

@@ -22,7 +22,7 @@
 .topPage{
 	margin-bottom:3px;
 	box-shadow:2px 0 3px #333;
-	border-bottom:3px solid #FFF;
+	border-bottom:3px solid #dd3a3d;
 	background:url(../images/topPageBackground.png) no-repeat right 0 #EEE;
 }
 .container {
@@ -40,9 +40,9 @@
 	padding-bottom:15px;
 }
 .loginForm .contenidoA {
-	margin: 10px auto;
+	/*margin: 10px auto;
 	box-shadow: 3px 3px 7px #333;
-	border-radius:5px;
+	border-radius:5px;*/
 }
 margin: 10px auto;
 	box-shadow: 3px 3px 7px #333;
@@ -133,6 +133,10 @@ margin: 10px auto;
 .container .two-thirds.column {
 	width: 620px;
 }
+.container .one-second.column.inicio_column {
+	position:relative;
+	display:inline-block;
+}
 .container .one-second.column {
 	width: 440px;
 }
@@ -158,6 +162,7 @@ margin: 10px auto;
 	width:156px;
 	margin-left:5%;
 	display:inline-block;
+	margin-bottom:2%;
 }
 .fullheader .header {
 	width: 960px;
@@ -240,7 +245,16 @@ margin: 10px auto;
 .smallOrg{
 	display:block;
 }
+
+
 @media only screen and (min-width: 959px){
+.inicioImage{
+	background:url(../images/welcome.jpg) no-repeat;
+	min-height:300px;
+}
+.inicioImage .texto{
+	display:none;
+}
 .columnB {
     float: left;
     width: 33%;
@@ -331,6 +345,9 @@ margin: 10px auto;
 }
 #contenedorDatos{
 	height:780px;
+}
+.header .dirantadLogo{
+	margin-left:20%;
 }
 /* #Tablet (Portrait)
 ================================================== */
@@ -501,17 +518,17 @@ margin:0 10px 0 10px;
  .container {
 width: 320px;
 }
- .fullheader {
+ /*.fullheader {
 width: 320px;
 margin: auto;
 }
  .fullfooter {
-width: 420px;
+width: 360px;
 margin:auto;
 }
  .fullscreen {
-width: 420px;
-}
+width: 360px;
+}*/
  .fullheader .header {
 width: 320px;
 margin:0 auto;
@@ -598,6 +615,9 @@ display:block;
     /* Note: Design for a width of 480px */
 
     @media only screen and (min-width: 480px) and (max-width: 767px) {
+		.header .dirantadLogo{
+	margin-left:0;
+}
  .container {
 width: 420px;
 }
@@ -638,6 +658,9 @@ display:block;
 }
 
 @media only screen and (max-width: 480px) {
+	.header .dirantadLogo{
+	margin-left:0;
+}
 	.boton div{
 	width:100% !important;
 }
@@ -755,8 +778,8 @@ margin:9px;*/
 	text-transform: lowercase;
 }
 #main-nav a:hover, #main-nav .hover > a, #main-nav .current > a, #main-nav a.hover_effect {
-	border-bottom-color: #f15a23;
-	border-top-color: #f15a23;
+	/*border-bottom-color: #f15a23;
+	border-top-color: #f15a23;*/
 	color: #CC0000;
 	/*color:#FEFEFE;*/
 }
