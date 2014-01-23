@@ -188,8 +188,8 @@ $total_especial = number_format($count['NUMERO'],0);
 	================================================== --><?php */?>
 <div class="fullscreen">
   <div class="container contenidoA">
-  <div class="inicioImage">
-  	<div class="texto">
+  <?php /*?><div class="inicioImage">
+  	<div class="texto"><?php */?>
     <div class="fullcontainer">
       <div class="content_block leftTitle">
         <p class="title">Bienvenido al Directorio ANTAD 2014</p>
@@ -202,11 +202,11 @@ $total_especial = number_format($count['NUMERO'],0);
       <p style="text-indent:20px;">Aquí encontrará información relacionada con la  Asociación Nacional de Tiendas de Autoservicios y Departamentales &quot;ANTAD&quot;, así como las Cadenas Asociadas.</p>
       <hr />
     </div>
-    </div>
-	</div>
+    <?php /*?></div>
+	</div><?php */?>
     <div class="clearfix"></div>
 
-    <?php /*?><div id="wrapper">
+    <div id="wrapper">
         <a href="#" id="dev7link" title="Go to dev7studios" style="text-decoration:none;">&nbsp;</a>
         <div class="slider-wrapper theme-default">
             <div id="slider" class="nivoSlider">
@@ -226,7 +226,7 @@ $total_especial = number_format($count['NUMERO'],0);
         effect:'random'
     });
     });
-    </script><?php */?>
+    </script>
     <div class="one-second column featured_bg inicio_column">
       <div class="featured_block">
         <h3>Antecedentes</h3>
