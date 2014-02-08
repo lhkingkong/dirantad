@@ -1,6 +1,6 @@
 <?php if(!isset($currentA)) $currentA='inicio'; ?>
-<div class="fullscreen container menuGloss">   
-	<div class="container menuGloss">
+<div class="fullscreen menuGloss">   
+	<div class="nav-container">
 	<nav id="main-nav">
 		
 		<ul>

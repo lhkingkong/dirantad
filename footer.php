@@ -30,7 +30,7 @@
 */
 ?>
   <div class="container clearfix" style="font-size: 10px; line-height: 15px; margin-bottom: 0px; background-color:#40545B">
-    <div class="eleven columns" style="color:white" > Todos los derechos reservados ® 2012 Asociación Nacional de Tiendas de Autoservicio y Departamentales, A. C.<br />
+    <div class="eleven columns floatLeft paddingLeft" style="color:white" > Todos los derechos reservados ® 2012 Asociación Nacional de Tiendas de Autoservicio y Departamentales, A. C.<br />
       Horacio 1855, 6° piso, Col. Chapultepec Morales<br />
       C.P. 11570. México D.F.<br />
       Tel: (55) &nbsp; 5580 &nbsp; 9900<br />
@@ -39,8 +39,8 @@
       <a href="http://www.antad.net" style="color:#CCF !important;">www.antad.net</a><br />
       </div>
     </div>
-    <div class="four columns" style="text-align:right"> <img src="images/logo_antad_foot_30_anos.png"/> </div>
-     <div class="sixteen columns" style="color:white" >  
+    <div class="four columns floatRight paddingRight" style="text-align:right"> <img src="images/logo_antad_foot_30_anos.png"/> </div>
+     <div class="sixteen columns clearfix" style="color:white" >  
  	  <p align="center">
 	  <div class="url">Desarrollado por IPSight Solutions S.A. De C.V.
       <a href="http://www.ipsight.net" style="color:#CCF !important;">www.ipsight.net</a><br />

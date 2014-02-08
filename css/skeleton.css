@@ -20,10 +20,8 @@
 ================================================== */
 
 .topPage{
-	margin-bottom:3px;
 	box-shadow:2px 0 3px #333;
-	border-bottom:3px solid #dd3a3d;
-	background:url(../images/topPageBackground.png) no-repeat right 0 #EEE;
+	background:url(../images/header-6.png) no-repeat right 0 #CC1010;
 }
 .container {
 	position: relative;
@@ -31,6 +29,12 @@
 	margin: 0 auto;
 	padding: 0;
 	background: #ffffff;
+}
+.nav-container {
+	position: relative;
+	margin: 0 auto;
+	padding: 0;
+	width: 960px;
 }
 .contenidoA {
 	/*margin: 10px auto;
@@ -156,13 +160,13 @@ margin: 10px auto;
 	margin-top:10px;
 }
 .logoANTAD{
-	background:url(../images/logoANTAD.png) no-repeat;
-	min-height:127px;
-	min-width:156px;
-	width:156px;
+	background:url(../images/logoANTAD-bevel.png) no-repeat center center;
+	min-height:159px;
+	min-width:195px;
+	width:195px;
 	margin-left:5%;
 	display:inline-block;
-	margin-bottom:2%;
+	padding:20px;
 }
 .fullheader .header {
 	width: 960px;
@@ -182,7 +186,7 @@ margin: 10px auto;
 	margin: 0 0 0 0;
 	padding: 0;
 	/*background: url("../images/fondoamarillo.png") no-repeat center fixed;*/
-	background-color:#40545B;
+	background-color:#831619;
 }
 .thetitle {
 	width: 940px;
@@ -358,6 +362,9 @@ margin: 10px auto;
  .container {
 width: 728px;
 }
+.nav-container {
+width: 728px;
+}
 .fullfooter img{
 	max-width:728px;
 }
@@ -508,15 +515,15 @@ hr{
  .container {
 width: 320px;
 }
+.nav-container {
+width: 320px;
+}
  .container .columns, .container .column {
 margin: 0;
 }
  .container .one.column, .container .one.columns, .container .two.columns, .container .three.columns, .container .four.columns, .container .five.columns, .container .six.columns, .container .seven.columns, .container .eight.columns, .container .nine.columns, .container .ten.columns, .container .eleven.columns, .container .twelve.columns, .container .thirteen.columns, .container .fourteen.columns, .container .fifteen.columns, .container .sixteen.columns, .container .fullscreen, .container .one-third.column, .container .one-second.column, .container .two-thirds.column {
 width: 280px;
 margin:0 10px 0 10px;
-}
- .container {
-width: 320px;
 }
  /*.fullheader {
 width: 320px;
@@ -621,14 +628,14 @@ display:block;
  .container {
 width: 420px;
 }
+.nav-container {
+width: 420px;
+}
  .container .columns, .container .column {
 margin: 0;
 }
  .container .one.column, .container .one.columns, .container .two.columns, .container .three.columns, .container .four.columns, .container .five.columns, .container .six.columns, .container .seven.columns, .container .eight.columns, .container .nine.columns, .container .ten.columns, .container .eleven.columns, .container .twelve.columns, .container .thirteen.columns, .container .fourteen.columns, .container .fifteen.columns, .container .sixteen.columns, .container .one-third.column, .container .two-thirds.column {
 width: 400px;
-}
- .container {
-width: 420px;
 }
  .fullheader .header {
 width: 420px;
@@ -649,12 +656,12 @@ display:block;
 	font-size:12px;
 	width:50% !important;
 }
-.logoANTAD{
-	background:url(../images/logoANTAD.png) no-repeat;
-	min-height:127px;
-	min-width:156px;
-	width:156px;
-}
+/*.logoANTAD{
+	background:url(../images/logoANTAD-bevel.png) no-repeat;
+	min-height:159px;
+	min-width:195px;
+	width:195px;
+}*/
 }
 
 @media only screen and (max-width: 480px) {
@@ -667,18 +674,26 @@ display:block;
 .sesion{
 	display:none;
 }
-.logoANTAD{
+/*.logoANTAD{
 	background:url(../images/logoANTAD.png) no-repeat;
 	min-height:127px;
 	min-width:156px;
 	width:156px;
-}
+}*/
 }
 /* #Clearing
 ================================================== */
 
     /* Self Clearing Goodness */
     .container:after {
+	content: "\0020";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+/* Self Clearing Goodness */
+    .nav-container:after {
 	content: "\0020";
 	display: block;
 	height: 0;
@@ -740,27 +755,25 @@ display:block;
 	font-weight: normal;
 	display: block;
 	letter-spacing: -0.08px;
+	margin:0;
 	padding: 12px 29px;
 	position: relative;
 	text-align: center;
 	text-transform: uppercase;
 	z-index: 52;
 	text-decoration:none;
-	/*background-color:#999;
-	background-image:url(../images/bg-styleC.png);*/
+	
+	background-image:url(../images/bg-light50.png);
+	background-repeat:repeat-x;
+	border: 1px solid transparent;
+	border-right: 1px solid rgba(255,255,255,0.3);
+	
 }
 #main-nav>ul>li >a {
-	/*background-image:url(../images/bg-dark41.png);*/
-color: #333;
-	/*border-radius:5px;
-margin:9px;*/
-	/*background-image:url(../images/bg-styleC2.png);
-	background-repeat:repeat-x;
-	border-top: 1px solid #EFEFEF;
-	border-left: 1px solid #B7B7B7;
-	border-right: 1px solid #7B7B7B;
-	border-bottom: 1px solid #5D5D5D;
-	text-shadow: 0 1px 0 rgba(51,51,51,.5);*/
+color: #FFF;
+}
+#main-nav>ul>li >a:first{
+	border-left: 1px solid rgba(255,255,255,0.3) !important;
 }
 .ie7 #main-nav a {
 	padding: 33px 20px;
@@ -778,9 +791,11 @@ margin:9px;*/
 	text-transform: lowercase;
 }
 #main-nav a:hover, #main-nav .hover > a, #main-nav .current > a, #main-nav a.hover_effect {
-	/*border-bottom-color: #f15a23;
-	border-top-color: #f15a23;*/
-	color: #CC0000;
+	border: 1px solid rgba(255,255,255,0.7);
+/*	border-right: 1px solid rgba(255,255,255,0.7);*/
+	background:url(../images/bg-styleC2.png) repeat-x;
+	color: #FFF;
+	text-shadow:1px 1px 1px #333;
 	/*color:#FEFEFE;*/
 }
 
@@ -829,7 +844,7 @@ margin:9px;*/
 	top: 40px;
 }
 #main-nav ul ul {
-	background: #C00;
+	background: #831619;
 	-webkit-box-shadow: 3px 3px 5px #333;
 	-moz-box-shadow: 2.5px 2.5px 5px #333);
 	box-shadow: 3px 3px 5px #333;
@@ -841,7 +856,7 @@ margin:9px;*/
 	width: 200px;
 	z-index: 53;
 	border-radius:4px;
-	margin-top:30px;
+	margin-top:22px;
 }
 #main-nav ul ul li {
 	float: none;
@@ -859,13 +874,18 @@ margin:9px;*/
 	text-align: left;
 	text-transform: none;
 	text-shadow: 0 1px 0 rgba(51,51,51,.5);
+	background:#CC1010 !important;
+	border: 1px solid tranparent !important;
+	border-bottom: 1px solid rgba(255,255,255,0.5) !important;
 }
 #main-nav ul ul a:hover, #main-nav ul ul .hover > a, #main-nav ul ul .current > a, #main-nav ul ul .current > a:hover {
 	/*background: #f15a23;*/
-	/*background-image:url(../images/bg-lightH.png);
-	background-repeat:repeat-y;*/
-	color: #C00;
-	background-color:#FFF;
+	background:url(../images/bg-lightH.png) repeat-y #CC1010 !important;
+	color: #FFF;
+	border: 1px solid tranparent !important;
+	border-bottom: 1px solid rgba(255,255,255,0.7) !important;
+	box-shadow: 0 0 3px #333;
+	z-index:100;
 }
 #main-nav ul li:hover ul, #main-nav ul a.hover_effect ul {
 	display:block;

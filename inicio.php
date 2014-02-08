@@ -186,12 +186,12 @@ $total_especial = number_format($count['NUMERO'],0);
 <?php include "mainmenu.php"; ?>
 <?php /*?><!-- Start Content
 	================================================== --><?php */?>
-<div class="fullscreen">
+<div class="fullscreen firstContainer">
   <div class="container contenidoA">
   <?php /*?><div class="inicioImage">
   	<div class="texto"><?php */?>
     <div class="fullcontainer">
-      <div class="content_block leftTitle">
+      <div class="content_block centerTitle">
         <p class="title">Bienvenido al Directorio ANTAD 2014</p>
       </div>
     </div>
