@@ -60,7 +60,7 @@ $currentA='antad'; ?>
 		<p style="text-indent:20px;">El consejo directivo está constituído por los asociados fundadores, asociados estratégicos y asociados activos</p>
 		<hr />
     </div>
-    <div class="one-third column">
+    <div class="one-third column floatLeft">
       <div class="boxA">
         <h3>Asociados Fundadores</h3>
         <div class="list_block">
@@ -79,7 +79,7 @@ $currentA='antad'; ?>
         </div>
       </div>
     </div>
-    <div class="one-third column">
+    <div class="one-third column floatLeft">
       <div class="boxA">
         <h3>Asociados Estratégicos</h3>
         <div class="list_block">
@@ -93,7 +93,7 @@ $currentA='antad'; ?>
         </div>
       </div>
     </div>
-    <div class="one-third column">
+    <div class="one-third column floatLeft">
       <div class="boxA">
         <h3>Asociados Activos</h3>
         <div class="list_block">

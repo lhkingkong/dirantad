@@ -92,7 +92,7 @@ $currentA='tiendas';
 				<div class="titulomovil">    
 					<p><titulos>Los Formatos de Tiendas</titulos></p>	
 				</div>		
-			<p style="text-indent:20px;">Para analizar objetivamente la estructura de cada una de las Cadenas Asociadas, ANTAD presenta los formatos de tiendas que maneja el Comercio Detallista en México, además de los servicios que brinda este sector.</p>
+			<p class="textContainerIndent">Para analizar objetivamente la estructura de cada una de las Cadenas Asociadas, ANTAD presenta los formatos de tiendas que maneja el Comercio Detallista en México, además de los servicios que brinda este sector.</p>
 		</div>	 
         <div class="clear"></div>
       <div id="tabs" style="margin:2%;">

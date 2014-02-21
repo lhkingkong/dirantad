@@ -44,9 +44,7 @@
 	padding-bottom:15px;
 }
 .loginForm .contenidoA {
-	/*margin: 10px auto;
-	box-shadow: 3px 3px 7px #333;
-	border-radius:5px;*/
+	padding:0 !important;
 }
 margin: 10px auto;
 	box-shadow: 3px 3px 7px #333;
@@ -132,7 +130,7 @@ margin: 10px auto;
 	/*overflow:auto;*/
 }
 .container .one-third.column {
-	width: 280px;
+	width: 300px;
 }
 .container .two-thirds.column {
 	width: 620px;

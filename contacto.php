@@ -64,7 +64,7 @@ $currentA='contacto'; ?>
 	  </div>	
     <div class="clear"></div>       
 			</div> 	
-		<div class="one-second column">
+		<div class="one-second column contactoMargin">
 		  <h1 class="red">Dirección</h1>			
             <table>
             <tr>
@@ -102,7 +102,7 @@ $currentA='contacto'; ?>
             </table>  
 		</div> 
 
-		<div class="one-second column">
+		<div class="one-second column contactoMargin">
 			<h1 class="red">Formulario de Contacto</h1>
 						
 			<p class="required_info">Todos los campos son requeridos<span>*</span></p>

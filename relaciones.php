@@ -72,7 +72,7 @@ $currentA='antad'; ?>
     <div class="clear"></div>
     <div class="sixteen columns">
 <br>		
-      <p>ANTAD colabora en forma constante con Organismos para el logro de objetivos comunes. Estos foros tienen como objetivo principal proporcionar canales apropiados para que industriales y comerciantes intercambien opiniones y conocimientos con el propósito de cristalizar negocios que permitan brindar nuevas oportunidades para el comercio.</p>
+      <p class="textContainerIndent">ANTAD colabora en forma constante con Organismos para el logro de objetivos comunes. Estos foros tienen como objetivo principal proporcionar canales apropiados para que industriales y comerciantes intercambien opiniones y conocimientos con el propósito de cristalizar negocios que permitan brindar nuevas oportunidades para el comercio.</p>
     </div>
     <div class="clear"></div>
     <div id="tabs" style="margin:2%;">

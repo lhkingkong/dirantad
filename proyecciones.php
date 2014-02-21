@@ -57,10 +57,10 @@ $currentA='noticias'; ?>
 		<div class="titulomovil">    
 			<p><titulos>Proyecciones 2014</titulos></p>	
 		</div>		  
-            <p style="text-indent:20px;">Se estima para el 2014 un crecimiento nominal a unidades iguales de 5.0% integrado por el crecimiento en Autoservicios de 3.7%, en Tiendas Departamentales de 9.0% y en Especializadas de 6.0%.</p>
-<p style="text-indent:20px;">Dada la inversión en nuevas unidades, se estima un crecimiento nominal a unidades totales de 11.5%, formado por el crecimiento de Autoservicios de 10.0%, en las Tiendas Departamentales de 13.5% y en Especializadas de 13.0%.</p>
+            <p class="textContainerIndent">Se estima para el 2014 un crecimiento nominal a unidades iguales de 5.0% integrado por el crecimiento en Autoservicios de 3.7%, en Tiendas Departamentales de 9.0% y en Especializadas de 6.0%.</p>
+<p class="textContainerIndent">Dada la inversión en nuevas unidades, se estima un crecimiento nominal a unidades totales de 11.5%, formado por el crecimiento de Autoservicios de 10.0%, en las Tiendas Departamentales de 13.5% y en Especializadas de 13.0%.</p>
         <hr />
-        <span style="background-color:#666; padding:8px; color:#FFF;">Descargar PDF <a href="downloads/proyeccion-2014.pdf" target="new"><img src="images/pdf.png" alt="PDF"></a></span>
+        <div style="text-align:center;"><span style="background-color:#666; padding:8px; color:#FFF; text-align:center;">Descargar PDF <a href="downloads/proyeccion-2014.pdf" target="new"><img src="images/pdf.png" alt="PDF"></a></span></div>
         <div class="clear"></div>
 		</div>
         

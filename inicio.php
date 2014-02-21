@@ -199,7 +199,7 @@ $total_especial = number_format($count['NUMERO'],0);
       <div class="titulomovil">
         <p><titulos>Bienvenido al directorio ANTAD 2014</titulos></p>
       </div>
-      <p style="text-indent:20px;">Aquí encontrará información relacionada con la  Asociación Nacional de Tiendas de Autoservicios y Departamentales &quot;ANTAD&quot;, así como las Cadenas Asociadas.</p>
+      <p class="textContainerIndent">Aquí encontrará información relacionada con la  Asociación Nacional de Tiendas de Autoservicios y Departamentales &quot;ANTAD&quot;, así como las Cadenas Asociadas.</p>
       <hr />
     </div>
     <?php /*?></div>

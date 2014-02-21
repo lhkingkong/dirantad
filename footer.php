@@ -41,8 +41,8 @@
     </div>
     <div class="four columns floatRight paddingRight" style="text-align:right"> <img src="images/logo_antad_foot_30_anos.png"/> </div>
      <div class="sixteen columns clearfix" style="color:white" >  
- 	  <p align="center">
-	  <div class="url">Desarrollado por IPSight Solutions S.A. De C.V.
+ 	  <p>
+	  <div class="url" style="text-align:center;">Desarrollado por IPSight Solutions S.A. De C.V.
       <a href="http://www.ipsight.net" style="color:#CCF !important;">www.ipsight.net</a><br />
       </div>
 	  </p> 

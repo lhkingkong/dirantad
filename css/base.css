@@ -865,3 +865,11 @@ a:hover .libro{
 .paddingRight{
 	margin-right:5%;
 }
+.textContainerIndent{
+	text-indent:10px;
+	margin:0 20px;
+}
+.contactoMargin{
+	margin-top:20px;
+	margin-left:20px;
+}

@@ -55,20 +55,20 @@ $currentA='noticias'; ?>
     </div>
     <div class="clear"></div>
     <div class="sixteen columns">
-      <p>Los libros y revista relacionados con el comercio en México</p>
+      <p class="textContainerIndent">Los libros y revista relacionados con el comercio en México</p>
       <hr />
     </div>
-    <div class="one-third column"> <a href="http://www.antad.net/index.php?option=com_wrapper&view=wrapper&Itemid=471#/6/" target="_blank" class="link">
+    <div class="one-third column floatLeft"> <a href="http://www.antad.net/index.php?option=com_wrapper&view=wrapper&Itemid=471#/6/" target="_blank" class="link">
       <div class="boxA libro"> <img src="images/libros/libroelbicentenario.jpg">
         <div>El Bicentenario de Comercio en México</div>
       </div>
       </a> </div>
-    <div class="one-third column"> <a href="http://www.antad.net/index.php?option=com_wrapper&view=wrapper&Itemid=474" target="_blank" class="link">
+    <div class="one-third column floatLeft"> <a href="http://www.antad.net/index.php?option=com_wrapper&view=wrapper&Itemid=474" target="_blank" class="link">
       <div class="boxA libro"> <img src="images/libros/libropochtecamoderno.jpg">
         <div>El Pochteca Moderno</div>
       </div>
       </a> </div>
-    <div class="one-third column"> <a href="http://www.antad.net/index.php?option=com_wrapper&view=wrapper&Itemid=475" target="_blank" class="link">
+    <div class="one-third column floatLeft"> <a href="http://www.antad.net/index.php?option=com_wrapper&view=wrapper&Itemid=475" target="_blank" class="link">
       <div class="boxA libro"> <img src="images/libros/aldetalle.jpg">
         <div>Revista Al Detalle</div>
       </div>

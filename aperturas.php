@@ -59,10 +59,10 @@ $currentA='noticias'; ?>
 		<div class="titulomovil">    
 			<p><titulos>Aperturas 2012</titulos></p>	
 		</div>	
-      <p style="text-indent:20px;">Dada la inversión en 2012 que alcanzó 3,600 millones de dólares, las Cadenas Asociadas a la ANTAD incrementaron el piso de venta en <span class="percent">8.7%</span>, lo que significó la apertura de más de <span class="percent">1,900 tiendas</span>.</p>
+      <p class="textContainerIndent">Dada la inversión en 2012 que alcanzó 3,600 millones de dólares, las Cadenas Asociadas a la ANTAD incrementaron el piso de venta en <span class="percent">8.7%</span>, lo que significó la apertura de más de <span class="percent">1,900 tiendas</span>.</p>
       <hr />
     </div>
-    <div class="one-third column">
+    <div class="one-third column floatLeft">
       <div class="boxA">
         <h3>Autoservicio </h3>
         <div class="percent">
@@ -70,7 +70,7 @@ $currentA='noticias'; ?>
         </div>
       </div>
     </div>
-    <div class="one-third column">
+    <div class="one-third column floatLeft">
       <div class="boxA">
         <h3>Departamentales</h3>
         <div class="percent">
@@ -78,7 +78,7 @@ $currentA='noticias'; ?>
         </div>
       </div>
     </div>
-    <div class="one-third column">
+    <div class="one-third column floatLeft">
       <div class="boxA">
         <h3>Especializadas</h3>
         <div class="percent">

@@ -81,7 +81,7 @@ $currentA='antad'; ?>
     <div class="clear"></div>
     <div class="sixteen columns">
 			
-      <p>Les presentamos los diversos comités de trabajo constituidos en la asociación ANTAD.</p>
+      <p class="textContainerIndent">Les presentamos los diversos comités de trabajo constituidos en la asociación ANTAD.</p>
       <div id="accordion">
         <h3>ANÁLISIS Y ESTUDIOS FINANCIEROS</h3>
         <div>

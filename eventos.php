@@ -63,10 +63,10 @@ $currentA='noticias'; ?>
     </div>
     <div class="clear"></div>
     <div class="sixteen columns">
-      <p>Los eventos organizados por el ANTAD en 2014</p>
+      <p class="textContainerIndent">Los eventos organizados por el ANTAD en 2014</p>
       <hr />
     </div>
-    <div class="one-third column"> <a href="http://www.expoantad.net" target="_blank">
+    <div class="one-third column" style="margin:0 auto;"> <a href="http://www.expoantad.net" target="_blank">
       <div class="boxA">
         <h3>Expo ANTAD</h3>
         <img src="images/eventos/expoANTAD.jpg"> </div>
