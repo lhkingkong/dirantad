@@ -63,7 +63,7 @@ $currentA='antad'; ?>
     <div class="clear"></div>
     <br>
     <div class="sixteen columns">
-      <p>La Asociación Nacional de Tiendas de Autoservicios y Departamentales 
+      <p class="textContainerIndent">La Asociación Nacional de Tiendas de Autoservicios y Departamentales 
         tiene como objetivo fundamental el mantener y mejorar los sistemas de distribución de sus Asociados,
         de acuerdo a las necesidades, deseos e intereses sociales y económicos.</p>
       <hr />
