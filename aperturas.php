@@ -62,6 +62,7 @@ $currentA='noticias'; ?>
       <p class="textContainerIndent">Dada la inversión en 2012 que alcanzó 3,600 millones de dólares, las Cadenas Asociadas a la ANTAD incrementaron el piso de venta en <span class="percent">8.7%</span>, lo que significó la apertura de más de <span class="percent">1,900 tiendas</span>.</p>
       <hr />
     </div>
+    <div class="textContainerIndent">
     <div class="one-third column floatLeft">
       <div class="boxA">
         <h3>Autoservicio </h3>
@@ -85,6 +86,7 @@ $currentA='noticias'; ?>
         72% <span>(1,368 tiendas)</span>
         </div>
       </div>
+    </div>
     </div>
   </div>
   <!-- container --> 

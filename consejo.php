@@ -57,10 +57,10 @@ $currentA='antad'; ?>
 		<div class="titulomovil">    
 			<p><titulos>El Consejo Directivo</titulos></p>	
 		</div>	
-		<p style="text-indent:20px;">El consejo directivo está constituído por los asociados fundadores, asociados estratégicos y asociados activos</p>
+		<p class="textContainerIndent">El consejo directivo está constituído por los asociados fundadores, asociados estratégicos y asociados activos</p>
 		<hr />
     </div>
-    <div class="one-third column floatLeft">
+    <div class="one-third column floatLeft textContainerIndent">
       <div class="boxA">
         <h3>Asociados Fundadores</h3>
         <div class="list_block">

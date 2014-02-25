@@ -58,6 +58,7 @@ $currentA='noticias'; ?>
       <p class="textContainerIndent">Los libros y revista relacionados con el comercio en México</p>
       <hr />
     </div>
+    <div class="textContainerIndent">
     <div class="one-third column floatLeft"> <a href="http://www.antad.net/index.php?option=com_wrapper&view=wrapper&Itemid=471#/6/" target="_blank" class="link">
       <div class="boxA libro"> <img src="images/libros/libroelbicentenario.jpg">
         <div>El Bicentenario de Comercio en México</div>
@@ -73,6 +74,7 @@ $currentA='noticias'; ?>
         <div>Revista Al Detalle</div>
       </div>
       </a> </div>
+      </div>
   </div>
   <!-- container --> 
 </div>
